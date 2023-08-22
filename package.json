@@ -1,6 +1,6 @@
 {
-  "name": "lock-conflict-resolver",
-  "version": "0.0.5",
+  "name": "lerna-lock-conflict-resolver",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {

@@ -19,7 +19,6 @@ const install = async () => {
     await adjustLernaBootstrap("--no-ci", "--ci")
 }
 
-
 const lcr = () => {
     shell.exec("git diff --name-only --diff-filter=U", async (code, stdout, stderr) => {
         if (stderr) {
